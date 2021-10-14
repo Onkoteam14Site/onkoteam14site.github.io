@@ -39,7 +39,6 @@ a {
   .text {
     z-index:1;
     background: rgba(247, 247, 247, 0.9);
-    color: #000000;
     width: 1070px;
     height: 450px;
     font-size: 15px;
@@ -255,6 +254,24 @@ a {
         color: #0e1627;
     }
 
+    
+    .ss {
+        width:100px;
+        position:relative;
+        left: 100px;
+      }
+
+    .text {
+        z-index:1;
+        background: rgba(255, 0, 0, 0.9);
+        width: 1070px;
+        height: 450px;
+        font-size: 15px;
+        position: absolute;
+        margin:150px auto;
+        text-align: center;
+  }
+
     /* for Mobile titles, headings, fonts, buttons */
 
     .title {
@@ -271,24 +288,6 @@ a {
         width: 93vw;
         height: 50vh;
     }
-
-    .ss {
-        width:100px;
-        position:relative;
-        left: 100px;
-      }
-
-/* Caption text */
-.text {
-    z-index:1;
-    background: rgba(255, 0, 0, 0.9);
-    width: 1070px;
-    height: 450px;
-    font-size: 15px;
-    position: absolute;
-    margin:150px auto;
-    text-align: center;
-  }
 
 
     /* Link underline effect */
