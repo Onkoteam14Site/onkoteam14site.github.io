@@ -193,7 +193,6 @@ a {
 
 @media screen and (min-width: 1025px) {
    .slider-container {
-      
        width: 1080px;
        height: auto;
        max-height: 750px;
@@ -232,7 +231,7 @@ a {
     }
 
     .logo {
-        max-width: 27%;
+        max-width: 40%;
         height: auto;
         align-self: flex-end; 
     }
