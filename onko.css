@@ -195,7 +195,7 @@ a {
 
 /* Mobile Section */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
     .nav-bar {
         display: flex;
         height: auto;
@@ -252,6 +252,12 @@ a {
         width: 93vw;
         height: 50vh;
     }
+
+    .ss {
+        width:100px;
+        position:relative;
+        left: 100px;
+      }
 
 
     /* Link underline effect */
