@@ -373,6 +373,9 @@ h6 {
         z-index: -100;
         background-color: #c6ced1;
     }
+    .team-list-parent {
+        border: rebeccapurple;
+    }
     .profile-pics {
         max-width: 20vw;
         max-height: 10vh;
