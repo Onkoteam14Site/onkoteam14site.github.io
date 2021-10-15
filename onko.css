@@ -388,6 +388,7 @@ h6 {
     }
     .team-name {
         font-size: 10px;
+        color: red;
     }
     /* for Mobile titles, headings, fonts, buttons */
     .info-heading {
