@@ -309,25 +309,25 @@ h1,h2,h3,h4,h5,h6{font-family:Verdana,sans-serif;font-weight:400;margin:10px 0}
     }
 
     .ss {
-        width:500px;
+        width:400px;
         position:relative;
-        left: 50px;
+        left: 40px;
       }
       
       .text {
         z-index:1;
         background: rgba(247, 247, 247, 0.9);
         color: #000000;
-        width: 535px;
-        height: 220px;
+        width: 440px;
+        height: 200px;
         font-size: 15px;
         position: absolute;
-        margin:80px auto;
+        margin:60px auto;
         text-align: center;
       }
     
       .box{
-        width: 600px; 
+        width: 480px; 
         z-index: -100; 
         background-color: #c6ced1; 
       }
@@ -336,19 +336,19 @@ h1,h2,h3,h4,h5,h6{font-family:Verdana,sans-serif;font-weight:400;margin:10px 0}
 
     .info-heading{
 
-        font-size: 20px;
+        font-size: 15px;
         text-align: right; 
-        top:20px; 
-        right:40px; 
+        top:5px; 
+        right:20px; 
         position:relative;
 
     }
 
     .info-p{
 
-        font-size: 8.5px;
-        left:10px; 
-        top:20px; 
+        font-size: 7.3px;
+        left:8px; 
+        top:10px; 
         text-align: justify; 
         text-justify: inter-word; 
         position:relative;
