@@ -374,7 +374,11 @@ h6 {
         background-color: #c6ced1;
     }
     .team-list-parent {
-        border: rebeccapurple;
+        padding-left: 50px;
+        padding-top: 50px;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
     }
     .profile-pics {
         max-width: 20vw;
