@@ -309,25 +309,25 @@ h1,h2,h3,h4,h5,h6{font-family:Verdana,sans-serif;font-weight:400;margin:10px 0}
     }
 
     .ss {
-        width:400px;
+        width:350px;
         position:relative;
-        left: 40px;
+        left: 35px;
       }
       
       .text {
         z-index:1;
         background: rgba(247, 247, 247, 0.9);
         color: #000000;
-        width: 440px;
+        width: 400px;
         height: 200px;
         font-size: 15px;
         position: absolute;
-        margin:60px auto;
+        margin:40px auto;
         text-align: center;
       }
     
       .box{
-        width: 480px; 
+        width: 420px; 
         z-index: -100; 
         background-color: #c6ced1; 
       }
@@ -336,9 +336,9 @@ h1,h2,h3,h4,h5,h6{font-family:Verdana,sans-serif;font-weight:400;margin:10px 0}
 
     .info-heading{
 
-        font-size: 15px;
+        font-size: 12px;
         text-align: right; 
-        top:5px; 
+        top:10px; 
         right:20px; 
         position:relative;
 
@@ -346,9 +346,9 @@ h1,h2,h3,h4,h5,h6{font-family:Verdana,sans-serif;font-weight:400;margin:10px 0}
 
     .info-p{
 
-        font-size: 7.3px;
+        font-size: 6.5px;
         left:8px; 
-        top:10px; 
+        top:20px; 
         text-align: justify; 
         text-justify: inter-word; 
         position:relative;
