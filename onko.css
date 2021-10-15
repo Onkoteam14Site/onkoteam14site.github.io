@@ -374,7 +374,7 @@ h6 {
         max-height: 10vh;
     }
     .team-list-parent {
-        padding-left: 40px;
+        padding-left: 10px;
         padding-top: 50px;
         columns: 2;
         -webkit-columns: 2;
@@ -388,7 +388,6 @@ h6 {
     }
     .team-name {
         font-size: 10px;
-        color: red;
     }
     /* for Mobile titles, headings, fonts, buttons */
     .info-heading {
