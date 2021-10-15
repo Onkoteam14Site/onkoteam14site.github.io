@@ -362,8 +362,8 @@ h6 {
         background-color: #c6ced1;
     }
     .profile-pics {
-        max-width: 10vw;
-        max-height: 1vh;
+        max-width: 20vw;
+        max-height: 10vh;
     }
     .team-list {
         margin: 20px 0;
@@ -372,7 +372,7 @@ h6 {
         font-size: 10px;
     }
     .team-name {
-        font-size: 20px;
+        font-size: 10px;
     }
     /* for Mobile titles, headings, fonts, buttons */
     .info-heading {
