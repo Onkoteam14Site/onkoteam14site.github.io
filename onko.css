@@ -251,6 +251,15 @@ h6 {
     margin: 20px 0;
 }
 
+.team-link {
+    font-size: 20px;
+}
+
+.team-link:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+}
+
 
 /* large screen specific targeting */
 
@@ -351,6 +360,16 @@ h6 {
         width: 420px;
         z-index: -100;
         background-color: #c6ced1;
+    }
+    .profile-pics {
+        max-width: 60vw;
+        max-height: 20vh;
+    }
+    .team-list {
+        margin: 20px 0;
+    }
+    .team-link {
+        font-size: 10px;
     }
     /* for Mobile titles, headings, fonts, buttons */
     .info-heading {
