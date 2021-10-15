@@ -378,6 +378,7 @@ h6 {
         max-height: 10vh;
     }
     .team-list-parent {
+        border: 1px solid red;
         padding-left: 150px;
         padding-top: 50px;
         columns: 2;
