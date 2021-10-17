@@ -243,8 +243,8 @@ h6 {
 /* The Team List */
 
 .profile-pics {
-    max-width: 93vw;
-    max-height: 22vh;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .flex {
