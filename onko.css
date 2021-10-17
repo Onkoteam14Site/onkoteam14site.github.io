@@ -98,7 +98,7 @@ h6 {
 .box {
     width: 1200px;
     z-index: -100;
-    background-color: #c6ced1;
+    background-color: #a686ca;
 }
 
 .info-heading {
@@ -215,10 +215,10 @@ h6 {
 
 .contact-section {
     background-color: #ffffff;
-    min-width: 93vw;
+    min-width: 90vw;
     min-height: 20vh;
-    margin: 2vh 4vw;
-    box-shadow: 1px 3px 6px black;
+    margin: 2vh 2vw;
+    box-shadow: 1px 3px 6px #a686ca;
     overflow: auto;
 }
 
@@ -244,15 +244,34 @@ h6 {
 
 .profile-pics {
     max-width: 93vw;
-    max-height: 20vh;
+    max-height: 22vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
 }
 
 .team-list-parent {
-    padding-left: 100px;
-    padding-top: 50px;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 20%;
+    flex-wrap: wrap;
+    height: 1050px;
+    border: 1px solid red;
+    width: 500px;
+}
+
+.team-list-parent2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 10%;
+    flex-wrap: wrap;
+    height: 1050px;
+    border: 1px solid red;
+    width: 500px;
 }
 
 .team-list {
@@ -264,7 +283,7 @@ h6 {
 }
 
 .team-name {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .team-link:hover {
@@ -342,7 +361,7 @@ h6 {
         display: none;
     }
     .links-click {
-        background-color: #e0e9ea;
+        background-color: #a686ca;
         width: 100%;
     }
     .link-view {
@@ -371,18 +390,31 @@ h6 {
     .box {
         width: 420px;
         z-index: -100;
-        background-color: #c6ced1;
-    }
-    .team-list-parent {
-        padding-left: 75px;
-        padding-top: 50px;
-        columns: 2;
-        -webkit-columns: 2;
-        -moz-columns: 2;
+        background-color: #a686ca;
     }
     .profile-pics {
-        max-width: 20vw;
-        max-height: 10vh;
+        max-width: 150px;
+        max-height: 250px;
+    }
+    .team-list-parent {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-left: 30%;
+        flex-wrap: wrap;
+        height: 1050px;
+        border: 1px solid red;
+        width: 500px;
+    }
+    .team-list-parent2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-left: 5%;
+        flex-wrap: wrap;
+        height: 1050px;
+        border: 1px solid red;
+        width: 500px;
     }
     .team-list {
         margin: 20px 0;
