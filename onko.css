@@ -216,10 +216,9 @@ h6 {
 .contact-section {
     background-color: #ffffff;
     max-width: 90vw;
-    min-height: 20vh;
+    min-height: 5vh;
     margin: 2vh 2vw;
     box-shadow: 1px 3px 6px #a686ca;
-    overflow: auto;
 }
 
 #c-details {
@@ -398,13 +397,11 @@ h6 {
     .team-list-parent {
         padding-top: 5%;
         padding-left: 10%;
-        height: 1050px;
         width: 250px;
     }
     .team-list-parent2 {
         padding-top: 5%;
         padding-left: 4%;
-        height: 1050px;
         width: 250px;
     }
     .team-list {
@@ -415,6 +412,9 @@ h6 {
     }
     .team-name {
         font-size: 10px;
+    }
+    .contact-section {
+        max-height: 800px;
     }
     /* for Mobile titles, headings, fonts, buttons */
     .info-heading {
