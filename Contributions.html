@@ -43,16 +43,18 @@
     <p> This function interfaces with the RTDOSE file of a patient to extract radiation dose data, converts lines of isodose into ROIs
     and saves them into an associated RTSTRUCT file.
     The range of levels to convert isodoses into ROIs can be changed, with values in centiGray (cGy) or percentage of prescription dose.
-    This required developing new functionality to convert coordinates to pixel values and vice versa to calculate coordinates of radiation dose values and generate contours around these values.
+    This required developing new functionality to convert coordinates to pixel values and vice versa to calculate coordinates of radiation dose values and generate contours around these values. 
     </p>
+    <br><a href="Assets/Onko/ISO2ROI.png">Example</a>
 </div>
 <button class="collapsible">SUV2ROI</button>
 <div class="content">
     <p> This function interfaces with DICOM PET files to extract PET scan data and other required information, converts this into units of Standardised Uptake Value, 
       then calculates SUV level contours for integers (1, 2, 3, …). These are then turned into Regions of Interest (ROIs) and saved into DICOM RTSTRUCT files. 
       This required developing new functionality to convert coordinates to pixel values and vice versa to calculate coordinates of radiation dose values and generate contours around these values. 
-      It also required mathematical operations to convert between pixel units and SUV units.
+      It also required mathematical operations to convert between pixel units and SUV units. 
     </p>
+    <br><a href="Assets/Onko/SUV2ROI.png">Example</a>
 </div>
 <button class="collapsible">DVH2RTDOSE</button>
 <div class="content">
@@ -60,19 +62,24 @@
     This DVH data is then converted into a standardised format and saved back into the RTDOSE file. 
     This required developing new functionality to convert DVH data into a standard format and writing this into DICOM RTDOSE files. 
     This process is done automatically when DVH values are calculated, which is initiated manually by the user either once a patient has been loaded or when prompted during patient loading, as this process takes a long time. 
-    If DVH data is found inside an RTDOSE file when a file of this nature is opened, then DVH data is extracted from this file and displayed automatically.
+    If DVH data is found inside an RTDOSE file when a file of this nature is opened, then DVH data is extracted from this file and displayed automatically. 
   </p>
+  <br><a href="Assets/Onko/DVH.png">Example</a>
 </div>
 <button class="collapsible">PYRAD2SR</button>
 <div class="content">
   <p>This function performs radiomics (a method that extracts features from medical images, known as radiomic features, that can aid a doctor in uncovering tumor patterns and characteristics that cannot be seen by the naked eye) and stores this data into a DICOM SR file. 
-    This required developing new functionality to generate DICOM SR files that are compliant to the existing standard, and storing radiomics data into these new SR files.</p>
+    This required developing new functionality to generate DICOM SR files that are compliant to the existing standard, and storing radiomics data into these new SR files.
+  </p>
+  <br><a href="Assets/Onko/Pyrad2sr.png">Example</a>
 </div>
 <button class="collapsible">CLINICALDATA2SR</button>
 <div class="content">
   <p>This function allows the user to select a comma separated value (CSV) file containing a list of clinical data for different patients, matches the patient ID in the CSV file to the patient ID of the selected DICOM dataset, and extracts matching patient clinical data information from this CSV. 
       This data is then saved into a newly-generated DICOM SR file, and linked to the patient’s dataset. The opposite can also be performed - extracting data from a DICOM SR file and saving it into a CSV file. 
-      This required developing new functionality to generate DICOM SR files, extract clinical data from a CSV file, and display this data. </p>
+      This required developing new functionality to generate DICOM SR files, extract clinical data from a CSV file, and display this data.
+  </p>
+  <br><a href="Assets/Onko/Clinicalcsv.png">Example</a>
 </div>
 
 
@@ -84,13 +91,15 @@ The user selects a directory containing DICOM datasets for multiple patients, se
   <p>This function allows the user to rename ROIs to one of the standard organ names according to a CSV file located in the application’s directory, or delete an ROI. 
     This requires loading each RTSTRUCT in the batch directory and listing each unique ROI name. If two ROIs share the same name, then this ROI is listed once and the datasets containing this ROI are displayed in a drop-down list. 
     The same process is applied to each ROI of the same name in each dataset containing this ROI.
-</p>
+  </p>
+  <br><a href="Assets/Onko/roiname.png">Example</a>
 </div>
 <button class="collapsible">ROI NAME TO FMA ID</button>
 <div class="content">
   <p>This function allows the user to rename ROIs from standard organ names to the corresponding Foundational Model of Anatomy (FMA) ID. 
       This is done automatically for each ROI name that matches a standard organ name (according to a CSV file located in the application’s directory).
-</p>
+  </p>
+  <br><a href="Assets/Onko/roifmaid.png">Example</a>
 </div>
 <h3 style="text-align: center;">Windows Executable</h3>
 <p style="padding: 0% 3% 1%; text-align: justify;">A batch script to compile OnkoDICOM from Python code into a Windows executable, and then package this executable into an installer was developed. This allows the product owner to quickly and easily generate program installers for Windows whenever a change is made to the base code. </p>
